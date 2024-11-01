@@ -1,0 +1,60 @@
+external command {
+  "bin": "ocamlc",
+  "args": [
+    "--version"
+  ]
+}
+
+process error {
+  "errno": -2,
+  "code": "ENOENT",
+  "syscall": "spawn ocamlc",
+  "path": "ocamlc",
+  "spawnargs": [
+    "--version"
+  ]
+}
+
+external command (finished) {
+  "bin": "ocamlc",
+  "args": [
+    "--version"
+  ],
+  "result": {
+    "exitCode": -2,
+    "stdout": "",
+    "stderr": ""
+  }
+}
+
+warn: [Ocaml.version_semver] Error running `ocamlc --version`: Command failed with error: 
+
+external command {
+  "bin": "ocamllsp",
+  "args": [
+    "--version"
+  ]
+}
+
+process error {
+  "errno": -2,
+  "code": "ENOENT",
+  "syscall": "spawn ocamllsp",
+  "path": "ocamllsp",
+  "spawnargs": [
+    "--version"
+  ]
+}
+
+external command (finished) {
+  "bin": "ocamllsp",
+  "args": [
+    "--version"
+  ],
+  "result": {
+    "exitCode": -2,
+    "stdout": "",
+    "stderr": ""
+  }
+}
+

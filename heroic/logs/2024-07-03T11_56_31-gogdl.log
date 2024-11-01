@@ -1,0 +1,4 @@
+[7/3/2024, 5:26:31 PM] GOGDL_CONFIG_PATH=/home/siddharth/.config/heroic/gogdlConfig /nix/store/c8ay94j4hpgc574dnq8ll19dal6m6hd5-heroic-unwrapped-2.13.0/share/heroic/build/bin/linux/gogdl --auth-config-path /home/siddharth/.config/heroic/gog_store/auth.json auth
+null
+[7/3/2024, 5:26:34 PM] GOGDL_CONFIG_PATH=/home/siddharth/.config/heroic/gogdlConfig /nix/store/c8ay94j4hpgc574dnq8ll19dal6m6hd5-heroic-unwrapped-2.13.0/share/heroic/build/bin/linux/gogdl --auth-config-path /home/siddharth/.config/heroic/gog_store/auth.json --version
+1.0.1

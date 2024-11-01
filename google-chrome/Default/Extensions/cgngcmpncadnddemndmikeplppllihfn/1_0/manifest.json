@@ -1,0 +1,33 @@
+{
+   "author": "wlg.ro",
+   "default_locale": "en",
+   "description": "__MSG_extDesc__",
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAj6NcXlx0QNH11e1v92Bwb50CUeTyDpNSbnhQKJ3DmlWd8waigSAMrIWIJ61T7LowuBrpL0B0XFV6NcygUVrvsboHWIM9slxPUi/DN69A91JjnAd60Z/4tg69PpFDH46PYtgWo7R0EMjw3C4Qx9D4VT68LVhXLlQDh1YZZzxFO2c/6I/aTS55UUs8S6zoSjtYAemQL8yhRjHLHk9kUjKT+xeflDB/10HxAUvsHpKl0c6cIc30hxacrYF5ZCKAd9H+dEtku/R4hSeEBzhQc4akG9orh48sCfpgBGoqUhUP3CpeplasUKG2d+c4j0eskuDNcDcCDNCKbDI/vZMu0XG5YwIDAQAB",
+   "manifest_version": 3,
+   "name": "__MSG_extName__",
+   "theme": {
+      "colors": {
+         "bookmark_text": [ 255, 255, 255 ],
+         "frame": [ 0, 0, 0 ],
+         "ntp_background": [ 255, 255, 255 ],
+         "tab_background_text": [ 255, 255, 255 ],
+         "tab_text": [ 255, 255, 255 ],
+         "toolbar": [ 82, 82, 82 ]
+      },
+      "images": {
+         "theme_ntp_background": "black-ford-mustang.png"
+      },
+      "properties": {
+         "ntp_background_alignment": "center",
+         "ntp_background_repeat": "no-repeat"
+      },
+      "tints": {
+         "buttons": [ 1, 1, 1 ],
+         "frame_inactive": [ 0, 0, 0 ],
+         "frame_incognito": [ 1, 1, 1 ],
+         "frame_incognito_inactive": [ 1, 1, 1 ]
+      }
+   },
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1"
+}

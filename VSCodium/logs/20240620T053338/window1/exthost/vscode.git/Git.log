@@ -1,0 +1,57 @@
+2024-06-20 05:33:45.882 [info] Log level: Info
+2024-06-20 05:33:45.882 [info] Validating found git in: "git"
+2024-06-20 05:33:45.882 [info] Using git "2.44.0" from "git"
+2024-06-20 05:33:45.882 [info] > git rev-parse --show-toplevel [16ms]
+2024-06-20 05:33:45.882 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-06-20 05:33:45.882 [info] > git rev-parse --show-toplevel [4ms]
+2024-06-20 05:33:45.882 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-06-20 05:33:45.908 [info] > git rev-parse --show-toplevel [12ms]
+2024-06-20 05:33:45.908 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-06-20 05:33:45.926 [info] > git rev-parse --show-toplevel [3ms]
+2024-06-20 05:33:45.926 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-06-20 05:33:45.943 [info] > git rev-parse --show-toplevel [2ms]
+2024-06-20 05:33:45.943 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-06-20 05:33:45.961 [info] > git rev-parse --show-toplevel [4ms]
+2024-06-20 05:33:45.961 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-06-20 05:33:45.978 [info] > git rev-parse --show-toplevel [2ms]
+2024-06-20 05:33:45.978 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-06-20 05:33:45.995 [info] > git rev-parse --show-toplevel [2ms]
+2024-06-20 05:33:45.995 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-06-20 05:33:46.011 [info] > git rev-parse --show-toplevel [2ms]
+2024-06-20 05:33:46.012 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-06-20 05:33:46.028 [info] > git rev-parse --show-toplevel [2ms]
+2024-06-20 05:33:46.028 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-06-20 05:33:46.047 [info] > git rev-parse --show-toplevel [2ms]
+2024-06-20 05:33:46.047 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-06-20 05:33:46.064 [info] > git rev-parse --show-toplevel [3ms]
+2024-06-20 05:33:46.064 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-06-20 05:33:46.081 [info] > git rev-parse --show-toplevel [2ms]
+2024-06-20 05:33:46.081 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-06-20 05:33:46.097 [info] > git rev-parse --show-toplevel [2ms]
+2024-06-20 05:33:46.097 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-06-20 05:33:46.114 [info] > git rev-parse --show-toplevel [1ms]
+2024-06-20 05:33:46.114 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-06-20 05:33:46.128 [info] > git rev-parse --show-toplevel [3ms]
+2024-06-20 05:33:46.128 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-06-20 05:33:46.144 [info] > git rev-parse --show-toplevel [2ms]
+2024-06-20 05:33:46.144 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-06-20 05:33:46.160 [info] > git rev-parse --show-toplevel [2ms]
+2024-06-20 05:33:46.160 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-06-20 05:33:46.176 [info] > git rev-parse --show-toplevel [2ms]
+2024-06-20 05:33:46.177 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-06-20 05:33:46.193 [info] > git rev-parse --show-toplevel [2ms]
+2024-06-20 05:33:46.194 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-06-20 05:33:46.212 [info] > git rev-parse --show-toplevel [3ms]
+2024-06-20 05:33:46.229 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2024-06-20 05:33:46.249 [info] Open repository: /home/siddharth/nixos-config
+2024-06-20 05:33:46.277 [info] > git config --get commit.template [8ms]
+2024-06-20 05:33:46.303 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [7ms]
+2024-06-20 05:33:46.319 [warning] ENOENT: no such file or directory, open '/home/siddharth/nixos-config/.git/refs/remotes/origin/main'
+2024-06-20 05:33:46.322 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-06-20 05:33:46.555 [info] > git status -z -uall [217ms]
+2024-06-20 05:33:46.590 [info] > git config --get commit.template [3ms]
+2024-06-20 05:33:46.695 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2024-06-20 05:33:46.708 [warning] ENOENT: no such file or directory, open '/home/siddharth/nixos-config/.git/refs/remotes/origin/main'
+2024-06-20 05:33:46.711 [info] > git rev-parse refs/remotes/origin/main [3ms]
+2024-06-20 05:33:46.796 [info] > git check-ignore -v -z --stdin [2ms]
+2024-06-20 05:33:46.909 [info] > git status -z -uall [186ms]

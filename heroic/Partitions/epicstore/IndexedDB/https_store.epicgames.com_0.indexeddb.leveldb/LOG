@@ -1,0 +1,2 @@
+2024/07/03-17:27:43.707 1bb9 Creating DB /home/siddharth/.config/heroic/Partitions/epicstore/IndexedDB/https_store.epicgames.com_0.indexeddb.leveldb since it was missing.
+2024/07/03-17:27:43.710 1bb9 Reusing MANIFEST /home/siddharth/.config/heroic/Partitions/epicstore/IndexedDB/https_store.epicgames.com_0.indexeddb.leveldb/MANIFEST-000001

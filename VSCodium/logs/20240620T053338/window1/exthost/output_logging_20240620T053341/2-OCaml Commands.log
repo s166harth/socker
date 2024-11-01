@@ -1,0 +1,4 @@
+$ ocamlc --version
+
+$ ocamllsp --version
+

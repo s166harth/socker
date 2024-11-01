@@ -1,0 +1,38 @@
+2024-07-11 21:16:48.090 [info] Extension host with pid 6273 started
+2024-07-11 21:16:48.139 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-07-11 21:16:48.155 [info] ExtensionService#_doActivateExtension arrterian.nix-env-selector, startup: false, activationEvent: 'onLanguage'
+2024-07-11 21:16:48.213 [error] Activating extension arrterian.nix-env-selector failed due to an error:
+2024-07-11 21:16:48.213 [error] TypeError: The "path" argument must be of type string or an instance of Buffer or URL. Received null
+	at Object.readdir (node:fs:1476:10)
+	at Object.readdir (node:electron/js2c/node_init:2:10316)
+	at ext.actions.get_nix_files (/nix/store/0rr7cp61jzza9m3n15fv45lxg28xsqik-vscode-extension-arrterian-nix-env-selector-1.0.10/share/vscode/extensions/arrterian.nix-env-selector/dist/main.js:2629:362)
+	at activate (/nix/store/0rr7cp61jzza9m3n15fv45lxg28xsqik-vscode-extension-arrterian-nix-env-selector-1.0.10/share/vscode/extensions/arrterian.nix-env-selector/dist/main.js:2646:521)
+	at U._callActivateOptional (/nix/store/ypx6xf686zjfxfjgj408awj4phs10qwc-vscodium-1.87.2.24072/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:17037)
+	at U._callActivate (/nix/store/ypx6xf686zjfxfjgj408awj4phs10qwc-vscodium-1.87.2.24072/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:16698)
+	at /nix/store/ypx6xf686zjfxfjgj408awj4phs10qwc-vscodium-1.87.2.24072/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:14523
+	at async l._activate (/nix/store/ypx6xf686zjfxfjgj408awj4phs10qwc-vscodium-1.87.2.24072/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:7911)
+	at async l._waitForDepsThenActivate (/nix/store/ypx6xf686zjfxfjgj408awj4phs10qwc-vscodium-1.87.2.24072/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:7853)
+	at async l._initialize (/nix/store/ypx6xf686zjfxfjgj408awj4phs10qwc-vscodium-1.87.2.24072/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:7217)
+2024-07-11 21:16:48.215 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-07-11 21:16:48.217 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc, startup: true, activationEvent: '*'
+2024-07-11 21:16:48.223 [error] Activating extension Catppuccin.catppuccin-vsc failed due to an error:
+2024-07-11 21:16:48.223 [error] Error: EROFS: read-only file system, open '/nix/store/q4fjf6y1h9bsx09746z735rmxrrq7h0z-vscode-extension-catppuccin-catppuccin-vsc-2.6.1/share/vscode/extensions/catppuccin.catppuccin-vsc/themes/.flag'
+	at Object.openSync (node:fs:603:3)
+	at Object.func [as openSync] (node:electron/js2c/node_init:2:2107)
+	at Object.writeFileSync (node:fs:2324:35)
+	at j.isFreshInstall (/nix/store/q4fjf6y1h9bsx09746z735rmxrrq7h0z-vscode-extension-catppuccin-catppuccin-vsc-2.6.1/share/vscode/extensions/catppuccin.catppuccin-vsc/dist/main.js:1:68895)
+	at Y (/nix/store/q4fjf6y1h9bsx09746z735rmxrrq7h0z-vscode-extension-catppuccin-catppuccin-vsc-2.6.1/share/vscode/extensions/catppuccin.catppuccin-vsc/dist/main.js:1:69143)
+	at U._callActivateOptional (/nix/store/ypx6xf686zjfxfjgj408awj4phs10qwc-vscodium-1.87.2.24072/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:17037)
+	at U._callActivate (/nix/store/ypx6xf686zjfxfjgj408awj4phs10qwc-vscodium-1.87.2.24072/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:16698)
+	at /nix/store/ypx6xf686zjfxfjgj408awj4phs10qwc-vscodium-1.87.2.24072/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:14523
+	at async l._activate (/nix/store/ypx6xf686zjfxfjgj408awj4phs10qwc-vscodium-1.87.2.24072/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:7911)
+	at async l._waitForDepsThenActivate (/nix/store/ypx6xf686zjfxfjgj408awj4phs10qwc-vscodium-1.87.2.24072/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:7853)
+	at async l._initialize (/nix/store/ypx6xf686zjfxfjgj408awj4phs10qwc-vscodium-1.87.2.24072/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:7217)
+2024-07-11 21:16:48.223 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-07-11 21:16:48.248 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-07-11 21:16:48.293 [info] Eager extensions activated
+2024-07-11 21:16:48.315 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-07-11 21:16:48.318 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-07-11 21:16:48.324 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc-icons, startup: false, activationEvent: 'onStartupFinished'
+2024-07-19 23:42:28.841 [info] Extension host terminating: renderer closed the MessagePort
+2024-07-19 23:42:28.934 [info] Extension host with pid 6273 exiting with code 0

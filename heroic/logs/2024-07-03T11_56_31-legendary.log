@@ -1,0 +1,4 @@
+[7/3/2024, 5:26:32 PM] LEGENDARY_CONFIG_PATH=/home/siddharth/.config/heroic/legendaryConfig/legendary /nix/store/c8ay94j4hpgc574dnq8ll19dal6m6hd5-heroic-unwrapped-2.13.0/share/heroic/build/bin/linux/legendary cleanup
+[cli] INFO: Cleanup complete! Removed 0.00 MiB.
+[7/3/2024, 5:26:34 PM] LEGENDARY_CONFIG_PATH=/home/siddharth/.config/heroic/legendaryConfig/legendary /nix/store/c8ay94j4hpgc574dnq8ll19dal6m6hd5-heroic-unwrapped-2.13.0/share/heroic/build/bin/linux/legendary --version
+legendary version "0.20.34", codename "Direct Intervention"

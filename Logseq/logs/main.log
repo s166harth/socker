@@ -1,0 +1,107 @@
+[2024-06-20 22:20:37.542] [info] Logseq App(0.10.7) Starting... 
+[2024-06-20 22:20:37.558] [info] restore proxy settings {:type "system"}
+[2024-06-20 22:20:37.559] [info] set proxy to {:type "system"}
+[2024-06-20 22:20:39.979] [debug] :electron.handler/watch-dir {:path "/home/siddharth/.logseq/config"}
+[2024-06-20 22:34:00.718] [info] :electron.handler/open-dir open folder selection dialog
+[2024-06-20 22:34:08.260] [debug] :electron.handler/open-dir {:path "/home/siddharth/Notes"}
+[2024-06-20 22:34:16.472] [debug] :electron.handler/watch-dir {:path "/home/siddharth/Notes"}
+[2024-06-20 22:40:52.802] [debug] [Marketplace] === Installing: catppuccin/logseq ===
+[2024-06-20 22:40:53.656] [debug] [Marketplace] INFO: use github api -  https://plugins.logseq.io/github/api
+[2024-06-20 22:40:54.371] [debug] [Marketplace] Release latest: https://plugins.logseq.io/github/api/repos/catppuccin/logseq/releases/latest :status 200
+[2024-06-20 22:40:54.374] [debug] [Marketplace] Release latest: v0.6.3  from https://api.github.com/repos/catppuccin/logseq/releases/assets/164652353
+[2024-06-20 22:40:56.215] [debug] [Marketplace] [Updated DONE] v0.6.3
+[2024-06-20 22:42:10.460] [debug] [Marketplace] === Installing: yoyurec/logseq-awesome-ui ===
+[2024-06-20 22:42:10.955] [debug] [Marketplace] ERR: valid github api -  Error: Unauthorized
+    at /nix/store/awdv3xz8r7q8z4vwlh0z51gfdmsq9vyx-logseq-0.10.7/share/logseq/resources/app/electron.js:14193:13
+    at Function.$G__108098__1$$ [as $cljs$core$IFn$_invoke$arity$1$] (/nix/store/awdv3xz8r7q8z4vwlh0z51gfdmsq9vyx-logseq-0.10.7/share/logseq/resources/app/electron.js:4104:175)
+    at /nix/store/awdv3xz8r7q8z4vwlh0z51gfdmsq9vyx-logseq-0.10.7/share/logseq/resources/app/electron.js:13064:80
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2024-06-20 22:42:11.479] [debug] [Marketplace] Release latest: https://api.github.com/repos/yoyurec/logseq-awesome-ui/releases/latest :status 200
+[2024-06-20 22:42:11.481] [debug] [Marketplace] Release latest: v2.4.0  from https://api.github.com/repos/yoyurec/logseq-awesome-ui/releases/assets/131829332
+[2024-06-20 22:42:13.443] [debug] [Marketplace] [Updated DONE] v2.4.0
+[2024-06-20 22:42:51.527] [debug] [Marketplace] === Installing: l3ony2k/D42ker-Logseq ===
+[2024-06-20 22:42:51.894] [debug] [Marketplace] Release latest: https://api.github.com/repos/l3ony2k/D42ker-Logseq/releases/latest :status 200
+[2024-06-20 22:42:51.896] [debug] [Marketplace] Release latest: v0.0.9  from null
+[2024-06-20 22:42:52.687] [debug] [Marketplace] [Updated DONE] v0.0.9
+[2024-06-20 22:46:08.903] [debug] window-all-closed Quitting...
+[2024-06-20 22:46:15.256] [info] Logseq App(0.10.7) Starting... 
+[2024-06-20 22:46:15.262] [info] restore proxy settings {:type "system"}
+[2024-06-20 22:46:15.263] [info] set proxy to {:type "system"}
+[2024-06-20 22:46:18.080] [debug] :electron.handler/watch-dir {:path "/home/siddharth/.logseq/config"}
+[2024-06-20 22:46:18.167] [debug] :electron.handler/unwatch-dir {:path "/home/siddharth/Notes"}
+[2024-06-20 22:46:18.168] [debug] :electron.handler/watch-dir {:path "/home/siddharth/Notes"}
+[2024-06-20 22:47:25.561] [debug] window-all-closed Quitting...
+[2024-06-22 10:25:52.148] [info] Logseq App(0.10.7) Starting... 
+[2024-06-22 10:25:52.162] [info] restore proxy settings {:type "system"}
+[2024-06-22 10:25:52.163] [info] set proxy to {:type "system"}
+[2024-06-22 10:25:55.308] [debug] :electron.handler/watch-dir {:path "/home/siddharth/.logseq/config"}
+[2024-06-22 10:25:55.342] [debug] :electron.handler/unwatch-dir {:path "/home/siddharth/Notes"}
+[2024-06-22 10:25:55.344] [debug] :electron.handler/watch-dir {:path "/home/siddharth/Notes"}
+[2024-06-22 10:25:55.749] [debug] [Marketplace] === Updating: l3ony2k/D42ker-Logseq ===
+[2024-06-22 10:25:56.667] [debug] [Marketplace] ERR: valid github api -  Error: Unauthorized
+    at /nix/store/awdv3xz8r7q8z4vwlh0z51gfdmsq9vyx-logseq-0.10.7/share/logseq/resources/app/electron.js:14193:13
+    at Function.$G__108098__1$$ [as $cljs$core$IFn$_invoke$arity$1$] (/nix/store/awdv3xz8r7q8z4vwlh0z51gfdmsq9vyx-logseq-0.10.7/share/logseq/resources/app/electron.js:4104:175)
+    at /nix/store/awdv3xz8r7q8z4vwlh0z51gfdmsq9vyx-logseq-0.10.7/share/logseq/resources/app/electron.js:13064:80
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2024-06-22 10:25:57.222] [debug] [Marketplace] Release latest: https://api.github.com/repos/l3ony2k/D42ker-Logseq/releases/latest :status 200
+[2024-06-22 10:25:57.226] [debug] [Marketplace] Release latest: v0.0.9  from null
+[2024-06-22 10:25:57.227] [debug] [Marketplace] Release compare: v0.0.9 (current) >  v0.0.9 (latest)
+[2024-06-22 10:25:57.228] [debug] [Marketplace] Update skip: no new version
+[2024-06-22 10:25:57.736] [debug] [Marketplace] === Updating: yoyurec/logseq-awesome-ui ===
+[2024-06-22 10:25:58.089] [debug] [Marketplace] Release latest: https://api.github.com/repos/yoyurec/logseq-awesome-ui/releases/latest :status 200
+[2024-06-22 10:25:58.091] [debug] [Marketplace] Release latest: v2.4.0  from https://api.github.com/repos/yoyurec/logseq-awesome-ui/releases/assets/131829332
+[2024-06-22 10:25:58.092] [debug] [Marketplace] Release compare: v2.4.0 (current) >  v2.4.0 (latest)
+[2024-06-22 10:25:58.093] [debug] [Marketplace] Update skip: no new version
+[2024-06-22 10:25:58.601] [debug] [Marketplace] === Updating: catppuccin/logseq ===
+[2024-06-22 10:25:58.963] [debug] [Marketplace] Release latest: https://api.github.com/repos/catppuccin/logseq/releases/latest :status 200
+[2024-06-22 10:25:58.966] [debug] [Marketplace] Release latest: v0.6.3  from https://api.github.com/repos/catppuccin/logseq/releases/assets/164652353
+[2024-06-22 10:25:58.966] [debug] [Marketplace] Release compare: v0.6.3 (current) >  v0.6.3 (latest)
+[2024-06-22 10:25:58.966] [debug] [Marketplace] Update skip: no new version
+[2024-06-22 10:26:08.245] [debug] window-all-closed Quitting...
+[2024-06-22 10:26:11.835] [info] Logseq App(0.10.7) Starting... 
+[2024-06-22 10:26:11.850] [info] restore proxy settings {:type "system"}
+[2024-06-22 10:26:11.851] [info] set proxy to {:type "system"}
+[2024-06-22 10:26:14.703] [debug] :electron.handler/watch-dir {:path "/home/siddharth/.logseq/config"}
+[2024-06-22 10:26:14.742] [debug] :electron.handler/unwatch-dir {:path "/home/siddharth/Notes"}
+[2024-06-22 10:26:14.743] [debug] :electron.handler/watch-dir {:path "/home/siddharth/Notes"}
+[2024-06-22 10:26:54.942] [debug] window-all-closed Quitting...
+[2024-06-22 10:26:57.002] [info] Logseq App(0.10.7) Starting... 
+[2024-06-22 10:26:57.005] [info] restore proxy settings {:type "system"}
+[2024-06-22 10:26:57.006] [info] set proxy to {:type "system"}
+[2024-06-22 10:26:59.666] [debug] :electron.handler/watch-dir {:path "/home/siddharth/.logseq/config"}
+[2024-06-22 10:26:59.925] [debug] [Marketplace] === Updating: catppuccin/logseq ===
+[2024-06-22 10:27:00.975] [debug] [Marketplace] ERR: valid github api -  Error: Unauthorized
+    at /nix/store/awdv3xz8r7q8z4vwlh0z51gfdmsq9vyx-logseq-0.10.7/share/logseq/resources/app/electron.js:14193:13
+    at Function.$G__108098__1$$ [as $cljs$core$IFn$_invoke$arity$1$] (/nix/store/awdv3xz8r7q8z4vwlh0z51gfdmsq9vyx-logseq-0.10.7/share/logseq/resources/app/electron.js:4104:175)
+    at /nix/store/awdv3xz8r7q8z4vwlh0z51gfdmsq9vyx-logseq-0.10.7/share/logseq/resources/app/electron.js:13064:80
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2024-06-22 10:27:01.519] [debug] [Marketplace] Release latest: https://api.github.com/repos/catppuccin/logseq/releases/latest :status 200
+[2024-06-22 10:27:01.524] [debug] [Marketplace] Release latest: v0.6.3  from https://api.github.com/repos/catppuccin/logseq/releases/assets/164652353
+[2024-06-22 10:27:01.525] [debug] [Marketplace] Release compare: v0.6.3 (current) >  v0.6.3 (latest)
+[2024-06-22 10:27:01.527] [debug] [Marketplace] Update skip: no new version
+[2024-06-22 10:27:02.046] [debug] [Marketplace] === Updating: yoyurec/logseq-awesome-ui ===
+[2024-06-22 10:27:02.413] [debug] [Marketplace] Release latest: https://api.github.com/repos/yoyurec/logseq-awesome-ui/releases/latest :status 200
+[2024-06-22 10:27:02.416] [debug] [Marketplace] Release latest: v2.4.0  from https://api.github.com/repos/yoyurec/logseq-awesome-ui/releases/assets/131829332
+[2024-06-22 10:27:02.417] [debug] [Marketplace] Release compare: v2.4.0 (current) >  v2.4.0 (latest)
+[2024-06-22 10:27:02.417] [debug] [Marketplace] Update skip: no new version
+[2024-06-22 10:27:02.927] [debug] [Marketplace] === Updating: l3ony2k/D42ker-Logseq ===
+[2024-06-22 10:27:03.532] [debug] [Marketplace] Release latest: https://api.github.com/repos/l3ony2k/D42ker-Logseq/releases/latest :status 200
+[2024-06-22 10:27:03.536] [debug] [Marketplace] Release latest: v0.0.9  from null
+[2024-06-22 10:27:03.536] [debug] [Marketplace] Release compare: v0.0.9 (current) >  v0.0.9 (latest)
+[2024-06-22 10:27:03.537] [debug] [Marketplace] Update skip: no new version
+[2024-06-22 10:27:13.893] [debug] window-all-closed Quitting...
+[2024-06-22 10:27:18.294] [info] Logseq App(0.10.7) Starting... 
+[2024-06-22 10:27:18.297] [info] restore proxy settings {:type "system"}
+[2024-06-22 10:27:18.298] [info] set proxy to {:type "system"}
+[2024-06-22 10:27:20.903] [debug] :electron.handler/watch-dir {:path "/home/siddharth/.logseq/config"}
+[2024-06-22 10:27:34.482] [debug] window-all-closed Quitting...
+[2024-06-22 10:27:39.281] [info] Logseq App(0.10.7) Starting... 
+[2024-06-22 10:27:39.295] [info] restore proxy settings {:type "system"}
+[2024-06-22 10:27:39.296] [info] set proxy to {:type "system"}
+[2024-06-22 10:27:41.907] [debug] :electron.handler/watch-dir {:path "/home/siddharth/.logseq/config"}
+[2024-06-22 10:27:52.182] [debug] window-all-closed Quitting...
+[2024-06-22 10:28:22.025] [info] Logseq App(0.10.7) Starting... 
+[2024-06-22 10:28:22.030] [info] restore proxy settings {:type "system"}
+[2024-06-22 10:28:22.031] [info] set proxy to {:type "system"}
+[2024-06-22 10:28:24.703] [debug] :electron.handler/watch-dir {:path "/home/siddharth/.logseq/config"}
+[2024-06-22 10:33:59.809] [debug] window-all-closed Quitting...

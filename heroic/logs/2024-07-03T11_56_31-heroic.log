@@ -1,0 +1,80 @@
+(17:26:31) INFO:    [Legendary]:        Legendary location: /nix/store/c8ay94j4hpgc574dnq8ll19dal6m6hd5-heroic-unwrapped-2.13.0/share/heroic/build/bin/linux/legendary
+(17:26:31) INFO:    [Gog]:              GOGDL location: /nix/store/c8ay94j4hpgc574dnq8ll19dal6m6hd5-heroic-unwrapped-2.13.0/share/heroic/build/bin/linux/gogdl
+(17:26:31) INFO:    [Connection]:       Connectivity: check-online
+(17:26:31) INFO:    [Connection]:       Pinging external endpoints
+(17:26:31) INFO:    [Backend]:          DRM modules disabled for nixpkgs
+(17:26:31) INFO:    [Gog]:              Checking for existing gog manifests
+(17:26:31) WARNING: [Backend]:          Failed to register protocol with OS.
+(17:26:31) INFO:    [Connection]:       Connectivity: online
+(17:26:31) INFO:    [Backend]:          User Not Found, removing it from Store
+(17:26:31) ERROR:   [Gog]:              Unable to syncQueued playtime, userData not present
+(17:26:31) INFO:    [Gog]:              Running command: GOGDL_CONFIG_PATH=/home/siddharth/.config/heroic/gogdlConfig /nix/store/c8ay94j4hpgc574dnq8ll19dal6m6hd5-heroic-unwrapped-2.13.0/share/heroic/build/bin/linux/gogdl --auth-config-path /home/siddharth/.config/heroic/gog_store/auth.json auth
+(17:26:32) INFO:    [Backend]:          Frontend Ready
+(17:26:32) INFO:    [Backend]:          Checking for new Heroic Updates
+(17:26:32) INFO:    [Backend]:          Checking for current version changelog
+(17:26:32) INFO:    [Frontend]:         Updated to a new version, cleaaning up the cache.
+(17:26:32) INFO:    [Legendary]:        Running command: LEGENDARY_CONFIG_PATH=/home/siddharth/.config/heroic/legendaryConfig/legendary /nix/store/c8ay94j4hpgc574dnq8ll19dal6m6hd5-heroic-unwrapped-2.13.0/share/heroic/build/bin/linux/legendary cleanup
+(17:26:32) INFO:    [Frontend]:         Refreshing undefined Library
+(17:26:32) WARNING: [Backend]:          refresh not implemented on Sideload Library Manager
+(17:26:32) INFO:    [Legendary]:        Refreshing library...
+(17:26:32) INFO:    [Backend]:          AreWeAntiCheatYet data downloaded
+(17:26:34) DEBUG:   [Backend]:          Unable to load Steam Libraries, libraryfolders.vdf not found
+(17:26:34) INFO:    [Winetricks]:       Downloading Winetricks
+(17:26:34) INFO:    [DXVKInstaller]:    Updating dxvk to: dxvk-2.3.1
+(17:26:34) INFO:    [DXVKInstaller]:    Updating dxvk-nvapi to: dxvk-nvapi-v0.7.1
+(17:26:34) INFO:    [DXVKInstaller]:    Updating vkd3d to: vkd3d-proton-2.13
+(17:26:34) INFO:    [Legendary]:        Running command: LEGENDARY_CONFIG_PATH=/home/siddharth/.config/heroic/legendaryConfig/legendary /nix/store/c8ay94j4hpgc574dnq8ll19dal6m6hd5-heroic-unwrapped-2.13.0/share/heroic/build/bin/linux/legendary --version
+(17:26:34) INFO:    [Gog]:              Running command: GOGDL_CONFIG_PATH=/home/siddharth/.config/heroic/gogdlConfig /nix/store/c8ay94j4hpgc574dnq8ll19dal6m6hd5-heroic-unwrapped-2.13.0/share/heroic/build/bin/linux/gogdl --auth-config-path /home/siddharth/.config/heroic/gog_store/auth.json --version
+(17:26:34) INFO:    [Nile]:             Running command: NILE_CONFIG_PATH=/home/siddharth/.config/heroic/nile_config /nix/store/c8ay94j4hpgc574dnq8ll19dal6m6hd5-heroic-unwrapped-2.13.0/share/heroic/build/bin/linux/nile --version
+(17:26:35) INFO:    [Backend]:          
+System Information:
+CPU: 12x AMD Ryzen 5 4600H with Radeon Graphics
+Memory: 7.66 GB (used: 846.08 MB)
+GPUs:
+  GPU 0:
+    Name: Advanced Micro Devices, Inc. [AMD/ATI] Renoir [Radeon Vega Series / Radeon Vega Mobile Series]
+    IDs: D=1636 V=1002 SD=3a44 SV=17aa
+    Driver: amdgpu
+  GPU 1:
+    Name: NVIDIA Corporation TU117M [GeForce GTX 1650 Ti Mobile]
+    IDs: D=1f95 V=10de SD=3a44 SV=17aa
+    Driver: nouveau
+OS: NixOS 24.05 (Uakari) (linux)
+
+The current system is not a Steam Deck
+We are not running inside a Flatpak container
+
+Software Versions:
+  Heroic: 2.13.0 Dorry & Broggy
+  Legendary: 0.20.34 Direct Intervention
+  gogdl: 1.0.1
+  Nile: 1.0.2 Jonathan Joestar
+
+(17:26:36) INFO:    [WineDownloader]:   Updating wine versions info
+(17:26:36) INFO:    [WineDownloader]:   Fetching upstream information...
+(17:26:37) INFO:    [Backend]:          Starting the Download Queue
+(17:26:38) INFO:    [WineDownloader]:   wine versions updated
+(17:26:39) INFO:    [DownloadManager]:  Downloader: Finished downloading https://github.com/Heroic-Games-Launcher/vkd3d-proton/releases/download/v2.13/vkd3d-proton-2.13.tar.xz
+(17:26:39) INFO:    [DXVKInstaller]:    Downloaded vkd3d, extracting...
+(17:26:39) INFO:    [Backend]:          Extracting /home/siddharth/.config/heroic/tools/vkd3d/vkd3d-proton-2.13.tar.xz to /home/siddharth/.config/heroic/tools/vkd3d/vkd3d-proton-2.13 using native tar
+(17:26:39) INFO:    [DownloadManager]:  Downloader: Finished downloading https://github.com/jp7677/dxvk-nvapi/releases/download/v0.7.1/dxvk-nvapi-v0.7.1.tar.gz
+(17:26:39) INFO:    [DXVKInstaller]:    Downloaded dxvk-nvapi, extracting...
+(17:26:39) INFO:    [Backend]:          Extracting /home/siddharth/.config/heroic/tools/dxvk-nvapi/dxvk-nvapi-v0.7.1.tar.gz to /home/siddharth/.config/heroic/tools/dxvk-nvapi/dxvk-nvapi-v0.7.1 using native tar
+(17:26:39) INFO:    [DownloadManager]:  Downloader: Finished downloading https://github.com/doitsujin/dxvk/releases/download/v2.3.1/dxvk-2.3.1.tar.gz
+(17:26:39) INFO:    [DXVKInstaller]:    Downloaded dxvk, extracting...
+(17:26:39) INFO:    [Backend]:          Extracting /home/siddharth/.config/heroic/tools/dxvk/dxvk-2.3.1.tar.gz to /home/siddharth/.config/heroic/tools/dxvk/dxvk-2.3.1 using native tar
+(17:26:39) INFO:    [DXVKInstaller]:    dxvk-nvapi updated!
+(17:26:39) INFO:    [DXVKInstaller]:    vkd3d updated!
+(17:26:40) INFO:    [DXVKInstaller]:    dxvk updated!
+(17:26:46) INFO:    [WineDownloader]:   Start installation of wine version Wine-GE-latest
+(17:26:51) INFO:    [Backend]:          Downloaded: 5 MB / 222.76 MB  @3 MB/s (2.24%)
+(17:26:53) INFO:    [Backend]:          Downloaded: 40.27 MB / 222.76 MB  @21.91 MB/s (18.08%)
+(17:26:54) INFO:    [Backend]:          Downloaded: 73.02 MB / 222.76 MB  @23.6 MB/s (32.78%)
+(17:26:56) INFO:    [Backend]:          Downloaded: 108.85 MB / 222.76 MB  @26.03 MB/s (48.87%)
+(17:26:57) INFO:    [Backend]:          Downloaded: 136.81 MB / 222.76 MB  @25.8 MB/s (61.41%)
+(17:26:58) INFO:    [Backend]:          Downloaded: 168.77 MB / 222.76 MB  @22.87 MB/s (75.77%)
+(17:27:00) INFO:    [Backend]:          Downloaded: 210.08 MB / 222.76 MB  @24.2 MB/s (94.31%)
+(17:27:01) INFO:    [DownloadManager]:  Downloader: Finished downloading https://github.com/GloriousEggroll/wine-ge-custom/releases/download/GE-Proton8-26/wine-lutris-GE-Proton8-26-x86_64.tar.xz
+(17:27:02) INFO:    [Backend]:          Extracting /home/siddharth/.config/heroic/tools/wine/wine-lutris-GE-Proton8-26-x86_64.tar.xz to /home/siddharth/.config/heroic/tools/wine/Wine-GE-latest using native tar
+(17:27:10) INFO:    [WineDownloader]:   Finished installation of wine version Wine-GE-latest
+(17:28:17) DEBUG:   [Backend]:          Unable to load Steam Libraries, libraryfolders.vdf not found
