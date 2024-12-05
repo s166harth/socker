@@ -1,4 +1,0 @@
-ls
-nvim packages.nix
-nix-switchu
-exit
