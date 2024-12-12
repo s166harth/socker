@@ -29,7 +29,7 @@ function socker_init() {
         echo "Error: No directory named '$1' exists."
     fi
 }
-function bocker_rm() {
+function socker_rm() {
     if [[ $# -ne 1 ]]; then
         echo "Usage: bocker_rm <image_or_container_id>"
         return
@@ -50,7 +50,7 @@ function bocker_rm() {
     echo "Successfully removed: $id"
 }
 
-function bocker_list() {
+function socker_list() {
     echo -e "ID\t\t\t\tSOURCE"
     for entry in "$btrfs_path"/*; do
         local id
