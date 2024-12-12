@@ -29,4 +29,37 @@ function socker_init() {
         echo "Error: No directory named '$1' exists."
     fi
 }
+function bocker_rm() {
+    if [[ $# -ne 1 ]]; then
+        echo "Usage: bocker_rm <image_or_container_id>"
+        return
+    fi
+
+    local id="$1"
+
+    if [[ "$(bocker_check "$id")" == 1 ]]; then
+        echo "Error: No image or container with ID '$id' exists."
+        return
+    fi
+
+    btrfs subvolume delete "$btrfs_path/$id" > /dev/null || {
+        echo "Error: Failed to remove btrfs subvolume for '$id'."
+        return
+    }
+
+    echo "Successfully removed: $id"
+}
+
+function bocker_list() {
+    echo -e "ID\t\t\t\tSOURCE"
+    for entry in "$btrfs_path"/*; do
+        local id
+        id="$(basename "$entry")"
+        if [[ -f "$entry/img.source" ]]; then
+            echo -e "$id\t\t\t$(cat "$entry/img.source")"
+        else
+            echo -e "$id\t\t\t<unknown>"
+        fi
+    done
+}
 
